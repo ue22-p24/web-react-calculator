@@ -31,9 +31,11 @@ function App() {
     }
     return digits
   }
+
   const calculate = () => {
     setCalculation(eval(calculation).toString())
   }
+
   const clear = () => {
     if (calculation === '') {
       return
@@ -51,16 +53,14 @@ function App() {
       </center>
 
       <div className="calc-grid">
+
         <div className='output'>
           {calculation || '0'}
           {output ? <span className="preRes">{output}</span> : ''}
-
-
         </div>
 
         <div>
-          <div className='ops'>
-
+          <div className='operations'>
             <button onClick={() => updateCalculation('/')}>/</button>
             <button onClick={() => updateCalculation('*')}>*</button>
             <button onClick={() => updateCalculation('+')}>+</button>
@@ -71,7 +71,8 @@ function App() {
                 src={process.env.PUBLIC_URL + "/backspace.png"} />
                 </button>
           </div>
-          <div className='dig'>
+
+          <div className='digits'>
 
             {createDigits()}
 

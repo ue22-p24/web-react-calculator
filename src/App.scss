@@ -17,7 +17,7 @@ h1 {
   margin: 20px auto;
   width: 500px;
 
-  .ops {
+  .operations {
 
     display: flex;
 
@@ -40,7 +40,7 @@ h1 {
 
   }
 
-  .dig button {
+  .digits button {
     flex: 1 1 33.333%;
 
     min-width: 33.333333%;
@@ -53,7 +53,7 @@ h1 {
 
   }
 
-  .dig button:hover {
+  .digits button:hover {
 
     background-color: #c9c9c9;
   }
