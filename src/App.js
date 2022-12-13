@@ -44,7 +44,11 @@ function App() {
 
   return (
     <div>
-      <center> <h1> React Calculator With React Hooks</h1></center>
+      <center> 
+        <h1>
+          Calculator With <img alt="react" className="react-logo" src={logo}/> Hooks
+        </h1>
+      </center>
 
       <div className="calc-grid">
         <div className='output'>
