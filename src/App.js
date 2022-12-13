@@ -63,8 +63,9 @@ function App() {
             <button onClick={() => updateCalculation('-')}>-</button>
             <button onClick={clear}>
               <img width={40} height={40}
-                src="https://cdn-icons-png.flaticon.com/512/159/159805.png" />
-            </button>
+                // how to insert an image that is in the public/ folder
+                src={process.env.PUBLIC_URL + "/backspace.png"} />
+                </button>
           </div>
           <div className='dig'>
 
