@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.scss';
+import './App.sass';
 import { useState } from "react";
 
 function App() {

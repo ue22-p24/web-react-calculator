@@ -1,0 +1,58 @@
+*
+	font-size: 40px
+
+h1
+	margin-top: 102px
+
+.react-logo
+	height: 50px
+
+.calc-grid
+	box-shadow: 0px 0px 100px #06678a
+	margin: 20px auto
+	width: 500px
+
+	.operations
+		display: flex
+
+		button
+			border: 0.5px solid #868686
+			display: flex
+			justify-content: center
+			align-items: center
+			background-color: #8c8c8c
+			width: 20%
+			height: 100px
+			transition: all 0.4s ease-in-out
+			cursor: pointer
+
+		button
+			&:hover
+				background-color: #525252
+
+	.digits
+		button
+			flex: 1 1 33.333%
+			min-width: 33.333333%
+			background-color: #b9b9b9
+			height: 100px
+			cursor: pointer
+			transition: all 0.4s ease-in-out
+			border: 0.5px solid #b0b0b0
+		button
+			&:hover
+				background-color: #c9c9c9
+
+	.output
+		height: 161px
+		box-shadow: inset 0px 0px 20px #d1ffef
+		text-align: right
+		font-size: 80px
+		display: flex
+		opacity: 46.5%
+		background-color: #c5c5c5
+		border: 1px solid black
+		flex-direction: column
+
+		.preRes
+			opacity: 26.5%
